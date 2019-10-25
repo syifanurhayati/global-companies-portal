@@ -35,3 +35,5 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK
 ```
 This project can be seen through the link shown on cmd as development server (http://127.0.0.1:8000/).
+
+Reference: [https://realpython.com/django-setup/](https://realpython.com/django-setup/)
