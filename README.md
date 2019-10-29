@@ -17,10 +17,17 @@ pip install -r requirements.txt
 ```
 venv\Scripts\activate
 ```
+In git bash, you can use the following command.
+```
+source venv/Scripts/activate
+```
+
 3. Please run the following command to see the project development.
 ```
 python2 manage.py runserver
 ```
+* In git bash, there will be no output. You can just open the link shown in step 4.
+
 4. Once, you run the previous command, you would see output as shown below on your cmd.
 ```
 Performing system checks...
