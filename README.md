@@ -47,3 +47,4 @@ This project can be seen through the link shown on cmd as development server (ht
 
 - [https://realpython.com/django-setup/](https://realpython.com/django-setup/)
 - [https://docs.djangoproject.com/en/1.7/intro/tutorial01/](https://docs.djangoproject.com/en/1.7/intro/tutorial01/)
+- [https://www.youtube.com/watch?v=UyQn0BhVqNU&list=PLBZBJbE_rGRXBhJNdKbN7IUy-ctlOFxA1](https://www.youtube.com/watch?v=UyQn0BhVqNU&list=PLBZBJbE_rGRXBhJNdKbN7IUy-ctlOFxA1)
