@@ -4,8 +4,7 @@ This is a global company portal using RDF implementation
 ## Requirements
 Please download these first before reading the instruction part.
 - Git
-- Python (this project uses Python 2.7)
-- MySQL
+- Python (this project uses Python 3)
 - The modules 
 
 ## Instruction
