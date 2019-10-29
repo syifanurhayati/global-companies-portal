@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 2. Don't change the name of any folder. Please run the following command on your cmd after successfully installed module in requirements.txt to activate virtual environment for django.
 ```
-source venv\Scripts\activate
+venv\Scripts\activate
 ```
 3. Please run the following command to see the project development.
 ```
