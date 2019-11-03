@@ -5,35 +5,21 @@
 		<title>CompaniesSearch</title>
 		<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
+		<link href="{% static 'css/searchpage.css' %}" rel="stylesheet" type="text/css">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<!-- <h1>Homepage</h1> -->
-		<!-- <div class="container"> -->
-			<div class="row">
-				
-					<form>
-						<div class="col-sm-6">
-							<input type="text" name="query" placeholder="Search by SPARQL queries format">
-							<br><br>
-						</div>
-						<div class="col-sm-6">
-							<input type="submit" value="Submit" onclick="r'^search/'">
-						</div>
-					</form> 
-						
+		<div class="container">
+			<div class="row search">
+				<form type="get" action="." style="margin: 0">
+					<input  id="search_box" type="text" name="search_box"  placeholder="Search company name..." >
+					<button id="search_submit" type="submit" >Search</button>
+				</form> 
 			</div>
+			<hr>
 			<div class="row">
-				<div class="col-sm-12">
-					<p>Hasil search</p> 
-				</div>		
+				<p>List Hasil search</p>
 			</div>
-		<!-- </div> -->
-	</body>
-	<!-- <div class="card text-center">
-		<div class="card-footer text-muted">
-			Powered By <small>Semweb Ranger</small>
-			&copy;2019
 		</div>
-	</div> -->
+	</body>
 </html>
