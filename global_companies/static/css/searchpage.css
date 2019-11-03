@@ -8,6 +8,11 @@
     margin: 2%;
     z-index: 5;
 }
+
+input#search_box:hover {
+    box-shadow: 0 0 8px lightslategrey;
+}
+
 #search_submit {
     border: none;
     height: 40px;
@@ -16,6 +21,10 @@
     background-color: cornflowerblue;
     border-radius: 10px;
     font-style: bolder;
+}
+
+#search_submit:active {
+    transform: scale(.9);
 }
 
 .center {

@@ -8,6 +8,11 @@
     margin: 2%;
     z-index: 5;
 }
+
+input#search_box:hover {
+    box-shadow: 0 0 15px lightslategrey;
+}
+
 #search_submit {
     border: none;
     padding: 2%;
@@ -19,13 +24,17 @@
     font-style: bolder;
 }
 
+#search_submit:active {
+    transform: scale(.9);
+}
+
 .center {
 	max-width: 50%;
 	display: inline-block;
 	left: 25%;
 	right: 50%;
-	margin-top: 26%;
-	margin-bottom: 27%;
+	margin-top: 20%;
+	margin-bottom: 33.25%;
 }
 
 .search {
