@@ -26,6 +26,9 @@
 				<ul style="list-style-type:none;">
 					<li><a href="">Company 1</a></li>
 					<li><a href="">Company 2</a></li>
+					{% if search_query is not None %}
+					<li><a href="">Nama company: {{ search_query }}</a></li>
+					{% endif %}
 				</ul>
 			</div>
 		</div>

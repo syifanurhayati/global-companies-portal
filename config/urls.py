@@ -22,5 +22,5 @@ urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     # path('admin/', admin.site.urls),
     url(r'^$', viewHomePage),
-    url(r'^search/', viewSearchPage, name='search'),
+    url(r'^search/', viewSearchPage),
 ]
