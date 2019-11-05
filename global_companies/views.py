@@ -13,6 +13,6 @@ def viewSearchPage(request):
 	search_query = ""
 	if(request.method == 'GET'):
 		search_query = request.GET.get('search_box', None)
-	print(search_query)
-	# return render(request, 'searchpage.html', search_query)
-	return HttpResponse('<h1>This query is {}.</h1>'.format(search_query));
+	print("hai " + search_query)
+	return render(request, 'searchpage.html', {'search_query':search_query});
+	# return HttpResponse('<h1>This query is {}.</h1>'.format(search_query));

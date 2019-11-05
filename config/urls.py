@@ -21,6 +21,6 @@ from global_companies.views import viewHomePage, viewSearchPage
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     # path('admin/', admin.site.urls),
-    url(r'^$', viewHomePage),
+    url(r'^$', viewHomePage, name=""),
     url(r'^search/', viewSearchPage),
 ]

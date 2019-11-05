@@ -11,11 +11,16 @@
 	<body>
 		<div class="container">
 			<div class="row search">
-				<form type="get" action="." style="margin: 0">
+				<form type="get" action="search/" style="margin: 0">
 					<img src="{% static 'homeicon.png' %}" width="10%" />
-					<input  id="search_box" type="text" name="search_box"  placeholder="Search company name..." >
+					{% if search_query is not None %}
+						<input  id="search_box" type="text" name="search_box"  placeholder="Search company name..." value = {{ search_query }}>
+					{% else %}
+						<input  id="search_box" type="text" name="search_box"  placeholder="Search company name...">
+					{% endif %}
+
 					<button id="search_submit" type="submit" >Search</button>
-				</form> 
+				</form>
 			</div>
 			<h6><b>We find 6 results.</b></h6>
 			<hr>
@@ -27,7 +32,7 @@
 					<li><a href="">Company 1</a></li>
 					<li><a href="">Company 2</a></li>
 					{% if search_query is not None %}
-					<li><a href="">Nama company: {{ search_query }}</a></li>
+						<li><a href="">Nama company: {{ search_query }}</a></li>
 					{% endif %}
 				</ul>
 			</div>
